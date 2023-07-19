@@ -1,3 +1,4 @@
+
 // ----------------------------  JS exercise 1 --------------------
 
 // console.log("js referesher");
@@ -115,3 +116,19 @@ setTimeout(()=>{
     console.log("times UP");
     clearInterval(interval);
 },(parseInt(time)*1000))
+
+
+// const time = prompt("Enter the time in seconds");
+// let sec = 1;
+// console.log(1);
+// const handleSeconds = () => {
+//   sec++;
+//   console.log(sec);
+//   if (sec == time) {
+//     clearInterval(interval);
+//   }
+// };
+// interval = setInterval(handleSeconds, 1000);
+// setTimeout(() => {
+//   console.log("times UP");
+// }, parseInt(time - 1) * 1000);
