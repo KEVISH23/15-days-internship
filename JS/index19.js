@@ -195,18 +195,18 @@ Create two variants: the first one using NOT !, the second one – without it.
 // }
 
 /* -------------- 2.11 Check the login -----------------*/
-let user = prompt("Who's There?");
-if (user == "Admin") {
-  let password = prompt("Enter Password..");
-  if (password == "THEMaster") {
-    alert("welcome");
-  } else if (password == null || password == "") {
-    alert("Cancelled");
-  } else {
-    alert("Wrong Password");
-  }
-} else if (user == null || user == "") {
-  alert("Cancelled");
-} else {
-  alert("I Don't Know You..");
-}
+// let user = prompt("Who's There?");
+// if (user == "Admin") {
+//   let password = prompt("Enter Password..");
+//   if (password == "THEMaster") {
+//     alert("welcome");
+//   } else if (password == null || password == "") {
+//     alert("Cancelled");
+//   } else {
+//     alert("Wrong Password");
+//   }
+// } else if (user == null || user == "") {
+//   alert("Cancelled");
+// } else {
+//   alert("I Don't Know You..");
+// }
