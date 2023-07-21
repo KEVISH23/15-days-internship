@@ -52,7 +52,7 @@ let employee = [
 
 /* *task 1 find employee, name starting with S */
 
-// let empNameWithS = employee.filter(value => value.name.charAt(0) == 'S');
+// let empNmeWithS = employee.filter(value => value.name.charAt(0) == 'S');
 // empNameWithS.map((value) => {
 //     document.write("Id: " + value.id +"  ")
 //     document.write("Name: " + value.name + " ")
@@ -106,7 +106,7 @@ let employee = [
 //     age: 36,
 //     salary:120000,
 // }
-// employee.splice(3, 0, newEmployee);
+// employee.splice(2, 0, newEmployee);
 // employee.map((value) => {
 //     document.write("Id: " + value.id +"  ")
 //     document.write("Name: " + value.name + " ")
@@ -118,7 +118,7 @@ let employee = [
 /* *task 6 delete employee at position 2 */
 
 
-// employee.splice(2, 1);
+// employee.splice(1, 1);
 // employee.map((value) => {
 //     document.write("Id: " + value.id +"  ")
 //     document.write("Name: " + value.name + " ")
@@ -156,4 +156,4 @@ let employee = [
 //     return { uprName : value.name.toUpperCase(),...value }
 // })
 
-// console.log(changeArray)        
+// console.log(changeArray)
