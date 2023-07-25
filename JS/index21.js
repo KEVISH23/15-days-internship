@@ -86,12 +86,12 @@ Prepend Rap and Reggae to the array.
 //         arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1)
 //     }
 //     alert(arr)
-    // let newStr = '';
-    // let newStr = arr.join("");
-    // for(elem of arr){
-    //     newStr+=elem;
-    // }
-    // alert(newStr);
+// let newStr = '';
+// let newStr = arr.join("");
+// for(elem of arr){
+//     newStr+=elem;
+// }
+// alert(newStr);
 
 // }
 // camelize(string)
@@ -100,7 +100,7 @@ Prepend Rap and Reggae to the array.
 
 // function camelize(str) {
 //   return str
-//     .split("-") 
+//     .split("-")
 //     .map(
 //       (word, index) =>
 //         index == 0 ? word : word[0].toUpperCase() + word.slice(1)
@@ -122,19 +122,19 @@ Prepend Rap and Reggae to the array.
 // alert(arr);
 
 /* *Filter range "in place"  */
-let arr = [5, 3, 8, 1];
-function filterRangeInPlace(arr, start, end) {
+// let arr = [5, 3, 8, 1];
+// function filterRangeInPlace(arr, start, end) {
 //   arr.forEach((val, index) => {
 //     if(val<start && val>end){
 //         arr.slice(index,1)
 //     }
 //   });
-for(let i=0;i<arr.length;i++){
-    if(arr[i]<start || arr[i]>end){
-        arr.splice(i,1)
-        i--
-    }
-}
-}
-filterRangeInPlace(arr, 1, 3);
-alert(arr);
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i]<start || arr[i]>end){
+//         arr.splice(i,1)
+//         i--
+//     }
+// }
+// }
+// filterRangeInPlace(arr, 1, 3);
+// alert(arr);

@@ -52,7 +52,7 @@ let employee = [
 
 /* *task 1 find employee, name starting with S */
 
-// let empNmeWithS = employee.filter(value => value.name.charAt(0) == 'S');
+// let empNameWithS = employee.filter(value => value.name.charAt(0) == 'S');
 // empNameWithS.map((value) => {
 //     document.write("Id: " + value.id +"  ")
 //     document.write("Name: " + value.name + " ")
