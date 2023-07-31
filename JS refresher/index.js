@@ -104,18 +104,18 @@
 // ----------------------------  setTimeOut setInterval --------------------
 
 
-const time = prompt("Enter the time in seconds");
-let sec = 0 ;
-const handleSeconds = () => {
-    sec++;
-    console.log(sec);
-};
-interval = setInterval(handleSeconds, 1000);
-setTimeout(()=>{
+// const time = prompt("Enter the time in seconds");
+// let sec = 0 ;
+// const handleSeconds = () => {
+//     sec++;
+//     console.log(sec);
+// };
+// interval = setInterval(handleSeconds, 1000);
+// setTimeout(()=>{
     
-    console.log("times UP");
-    clearInterval(interval);
-},(parseInt(time)*1000))
+//     console.log("times UP");
+//     clearInterval(interval);
+// },(parseInt(time)*1000))
 
 
 // const time = prompt("Enter the time in seconds");

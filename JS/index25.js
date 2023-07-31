@@ -204,7 +204,7 @@
 // function printListReverse(list){
 //     arr.push(list.value)
 //     // console.log(arr)
-//     if(list.next==null){
+//     if(list.next!=null){
 //         printListReverse(list.next)
 //     }else{
 //         alert(arr.reverse())
