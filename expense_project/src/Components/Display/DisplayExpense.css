@@ -1,0 +1,79 @@
+.dispDiv {
+  height: auto;
+  width: 75%;
+  border-radius: 20px;
+  background-color: #CDC2AE;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.itemDisp{
+  height: 15vh;
+  width: 90%;
+  border-radius: 10px;
+  background-color:#116A7B;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  row-gap: 10%;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  
+}
+
+.dateDisp{
+  border:2px solid #ECE5C7;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: #116A7B;
+  color: #ECE5C7 ;
+  width: 20%;
+  text-align: center;
+}
+
+.titleDisp{
+   padding: 20px;
+  font-size: 20px;
+  color: #ECE5C7 ;
+  width: 70%;
+  text-align: center;
+}
+
+.dispFilter{
+ height: auto;
+  width: 75%;
+  border-radius: 5px;
+  background-color: #C2DEDC;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  gap: 50%;
+}
+.selectDisp{
+  background-color: #374f5e;
+  color: #d5e0f1;
+  border: 1px solid #dde6ed;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.selectDisp:focus{
+  outline: none;
+}
