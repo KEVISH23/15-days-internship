@@ -6,6 +6,8 @@ import ExerciseWithState from './components/ExerciseWithState';
 import ExerciseValidateFormInput from './components/ExerciseValidateFormInput';
 import ExerciseCounterWithPrevState from './components/ExerciseCounterWithPrevState';
 import ExerciseConditional from './components/ExerciseConditional';
+import ExerciseStyle from './components/ExerciseStyle';
+import ExerciseCssClass from './components/ExerciseCssClass';
 function App() {
   const product = [
     {
@@ -39,6 +41,8 @@ function App() {
       {/* <ExerciseValidateFormInput/> */}
       {/* <ExerciseCounterWithPrevState/> */}
       {/* <ExerciseConditional/> */}
+      {/* <ExerciseStyle/> */}
+      <ExerciseCssClass/>
     </div>
   );
 }
