@@ -12,7 +12,7 @@ export const Div = styles.div`
 
 export const Card = styles.div`
     width:50%;
-    height:50%;
+    height:55%;
     background-color:#FFFFFF;
     box-shadow:0px 0px 25px 4px #DEEFE7;
     border-radius:10px;
@@ -20,7 +20,7 @@ export const Card = styles.div`
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    gap:10%;
+    gap:5%;
     @media (max-width: 768px) {
         width:80%;
         height:65%
@@ -37,7 +37,6 @@ export const Input = styles.input`
     border: 2px solid #0f804b;
     width:70%;
     height:10%;
-    margin-top:15px;
     font-size:15px;
     &:focus{
         outline:none;
@@ -52,7 +51,8 @@ export const Button = styles.button`
     font-size:15px;
     transition:all 0.5s;
     border-radius:5px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    margin-top:10px;
     &:hover{
         border:3px solid #0f804b;
         background-color:#0f804b;
@@ -70,3 +70,11 @@ export const Typography = styles.text`
     color:red;
     font-weight:bold;
 `
+
+export const Label = styles.label`
+    letter-spacing:px;
+    color:#002333;
+    margin-top:12px;
+    font-size:25px;
+    font-weight:bold;
+`;

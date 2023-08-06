@@ -4,6 +4,7 @@ import {
   Card,
   Div,
   Input,
+  Label,
   Typography,
 } from "./components/StyledComponent";
 import context from "./components/Context";
@@ -58,7 +59,9 @@ function App() {
       {!isLoggedIn ? (
         <Div>
           <Card>
+            <Label>Email</Label>
             <Input placeholder="Email" ref={emailRef} type="email" />
+            <Label>Password</Label>
             <Input placeholder="Password" ref={passRef} type="password" />
             {isErrorInInput ? (
               <Typography>Invalid Credentials</Typography>
