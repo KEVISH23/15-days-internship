@@ -143,7 +143,7 @@
 //     }
 // }
 // factorial(n)
-// alert(factorial(n))
+// document.write(factorial(n))
 
 /* *==>Fibonacci numbers */
 // let n = +prompt("Enter a number");
@@ -217,3 +217,56 @@
     
 // }
 // printListReverse(list)
+
+// const kevish = {
+//   name: "Kevish",
+//   age: 21,
+// };
+// function greeting() {
+//   document.write(`Hi, I am ${this.name} and I am ${this.age} years old`);
+// }
+// const greetingMe = greeting.bind(kevish);
+// greetingMe();
+
+// let sum = (a, b) => a + b;
+// document.write( sum(1, 2) ); // 3
+
+// let json = "{ bad json }";
+
+// try {
+//   let user = JSON.parse(json); // <-- when an error occurs...
+//   document.write(user.name); // doesn't work
+// } catch (err) {
+//   // ...the execution jumps here
+//   alert(
+//     "Our apologies, the data has errors, we'll try to request it one more time."
+//   );
+//   document.write(err.name);
+//   document.write("<br>");
+//   document.write(err.message);
+// }
+
+// 	try {
+//         document.write("try");
+//         document.write("<br>");
+//     if (confirm("Make an error?")) BAD_CODE();
+//   } catch (err) {
+//       document.write("catch");
+//   document.write("<br>");
+//   } finally {
+//     document.write("finally");
+//   }
+
+async function loadJson(url) { // (1)
+  let response = await fetch(url); // (2)
+
+  if (response.status == 200) {
+    let json = await response.json(); // (3)
+    return json;
+  }
+
+  throw new Error(response.status);
+}
+
+loadJson('https://javascript.info/no-such-user.json')
+  .catch(alert); // Error: 404 (4)

@@ -323,3 +323,64 @@ for (let i = 0; i < 3; i++) {
 //     return money.slice(1);
 // }
 // alert(extractCurrencyValue(money))
+
+// let user = {
+//   name: "Kevish",
+//   age: 21,
+//   isAdmin: true,
+// };
+
+// for (let key in user) {
+//   document.write(key + " : " + user[key] + "<br>")
+// }
+
+// document.write(parseInt("100px"))
+// document.write("<br>")
+// document.write(parseFloat("12.5em"));
+// document.write("<br>")
+// let num = 1.23456;
+// document.write(Math.round(num * 100) / 100);
+// document.write("<br>")
+// document.write(Math.floor(num));
+// document.write("<br>")
+// document.write(Math.ceil(num));
+
+
+// let fruits = ["Apple", "Orange", "Plum"];
+// fruits.pop();
+// document.write( fruits );
+// document.write("<br>")
+
+// fruits.push("Pear");
+// document.write( fruits );
+// document.write("<br>")
+
+// fruits.shift();
+// document.write( fruits );
+// document.write("<br>")
+
+// fruits.unshift('Apple');
+// document.write( fruits );
+// document.write("<br>");
+// document.write(fruits.length);
+
+// let date = new Date();
+// 	document.write(date.getFullYear());
+// document.write("<br>");
+// 	document.write(date.getMonth());
+// document.write("<br>");
+// 	document.write(date.getDate());
+// let today = new Date();
+// today.setHours(0);
+// document.write(today);
+
+// let student = {
+//   name: "Kevish",
+//   age: 21,
+//   isAdmin: false,
+//   courses: ["html", "css", "js"],
+// };
+
+// let json = JSON.stringify(student);
+// document.write(json);
+

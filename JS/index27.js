@@ -13,12 +13,12 @@
 
 /* *Delay with a promise */
 
-function delay(ms) {
- let promise = new Promise((resolve,reject)=>{
-   // return new Promise((resolve,reject)=>{
+// function delay(ms) {
+//  let promise = new Promise((resolve,reject)=>{
+//    // return new Promise((resolve,reject)=>{
 
-   setTimeout(resolve, ms);
- }) 
-  return promise
-}
-delay(3000).then(() => alert("runs after 3 seconds"));
+//    setTimeout(resolve, ms);
+//  }) 
+//   return promise
+// }
+// delay(3000).then(() => alert("runs after 3 seconds"));

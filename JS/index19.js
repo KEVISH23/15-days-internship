@@ -2,7 +2,7 @@
 /*  19-07-2023  */
 // ------------------------ 2.1 Hello World ----------
 
-// document.write("Namastey")
+// document.write("Hello World");
 
 //--------------------- 2.1 task 2 -------------------
 // alert("I'm JavaScript");
@@ -41,8 +41,9 @@ Create a variable to store the name of a current visitor to a website. How would
 // if(confirm(`is your name ${name}?`)){
 //     alert(`Welcome ${name}`);
 // }else{
-//     getName();
-// }
+    
+//   getName();
+//   }
 // }
 // getName();
 
